@@ -1,0 +1,43 @@
+﻿<html>
+<head>
+    <META charset="UTF-8">
+
+
+    <link rel="stylesheet" href="styles.css">
+    <!-- Optional theme -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <div class="ui two column centered grid">
+        <form id="form" class="ui form column">
+            <div class="form-output">First name: <span id="firstname"></span></div>
+            <div class="form-output">Last name: <span id="lastname"></span></div>
+            <div class="form-output">Phone: <span id="phone"></span></div>
+            <div class="form-output">Email: <span id="email"></span></div>
+
+
+            <div class="top20 field ">
+                <label>First Name</label>
+                <input type="text" name="first-name" placeholder="First Name">
+            </div>
+            <div class="field">
+                <label>Last Name</label>
+                <input type="text" name="last-name" placeholder="Last Name">
+            </div>
+            <div class="field">
+                <label>Phone</label>
+                <input type="tel" name="phone" placeholder="Phone number">
+            </div>
+            <div class="field">
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Email">
+            </div>
+            <a class="ui button" onclick="clicksubmit()">Submit</a>
+        </form>
+    </div>
+</body>
+</html>
